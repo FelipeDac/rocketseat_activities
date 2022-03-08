@@ -1,0 +1,20 @@
+.colums {
+    display: flex;
+    gap: 1rem;
+}
+
+.colum1 {
+    border: 2px solid red;
+    display: inline;
+    height: 95vh;
+    flex-basis: 25%;
+    margin-left: 10px;
+}
+
+.colum2 {
+    border: 2px solid blue;
+    display: inline;
+    flex-grow: 1;
+    height: 95vh;
+    margin-right: 10px;
+}
